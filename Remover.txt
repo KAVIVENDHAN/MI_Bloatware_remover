@@ -1,0 +1,130 @@
+Redmi 9A Dual - Olivewood package:
+//bigota.d.miui.com/V12.5.6.0.QCQINXM/olivewood_in_global_images_V12.5.6.0.QCQINXM_20211228.0000.00_10.0_in_b895f6bfc1.tgz
+
+
+After installing above 
+adb shell
+pm list packages
+
+Options: to combine with list packages command
+	-k keep user data and cache
+	-u got uninstalled
+	-e enabled packages name
+	-d disabled packages name
+	-i For installed
+	-s List only the system packages
+	-3 To list only 3rd party (or non-system) packages
+	-f List the package names as well as the path to the installed APK files. (an be combined with the other options as well)
+
+Uninstall command:
+--pm uninstall --user 0 PackageName
+
+
+BELOW APPS ARE TESTED AND SAFE TO REMOVE (tested no issues):
+--pm uninstall --user 0 com.android.providers.calendar (Optional)
+pm uninstall --user 0 com.miui.cleaner
+pm uninstall --user 0 com.miui.cloudbackup
+pm uninstall --user 0 com.miui.global.packageinstaller
+pm uninstall --user 0 com.miui.gallery
+pm uninstall --user 0 com.miui.cleaner
+pm uninstall --user 0 com.miui.hybrid.accessory
+pm uninstall --user 0 com.miui.android.fashiongallery
+pm uninstall -k --user 0 com.android.mms
+pm uninstall --user 0 com.android.apps.tag
+pm uninstall --user 0 com.android.bookmarkprovider
+pm uninstall --user 0 com.android.contacts
+pm uninstall --user 0 com.android.mms
+pm uninstall --user 0 com.android.thememanager
+pm uninstall --user 0 com.android.providers.contacts
+pm uninstall --user 0 com.android.phone
+pm uninstall --user 0 com.android.chrome
+pm uninstall --user 0 com.huaqin.wifibtrxtx
+pm uninstall --user 0 com.micredit.in
+pm uninstall --user 0 app.buzz.share
+pm uninstall --user 0 com.funnypuri.client
+pm uninstall --user 0 com.linkedin.android
+pm uninstall --user 0 cn.wps.moffice_eng
+pm uninstall --user 0 in.amazon.mShop.android.shopping
+pm uninstall --user 0 com.google.android.tts
+pm uninstall --user 0 com.google.android.apps.tachyon
+pm uninstall --user 0 com.google.android.apps.docs
+pm uninstall --user 0 com.google.android.videos
+pm uninstall --user 0 com.google.android.apps.photos
+pm uninstall --user 0 com.google.android.apps.youtube.music
+pm uninstall --user 0 com.xiaomi.mipicks
+pm uninstall --user 0 cn.wps.xiaomi.abroad.lite
+pm uninstall --user 0 com.facemoji.lite.xiaomi
+pm uninstall --user 0 com.facebook.appmanager
+pm uninstall --user 0 com.facebook.services
+pm uninstall --user 0 com.facebook.system
+pm uninstall --user 0 com.facebook.katana
+pm uninstall --user 0 com.netflix.partner.activation
+pm uninstall --user 0 com.miui.yellowpage
+pm uninstall --user 0 com.miui.weather2
+pm uninstall --user 0 com.miui.analytics
+pm uninstall --user 0 com.miui.notes
+pm uninstall --user 0 com.miui.bugreport
+pm uninstall --user 0 com.miui.cleaner
+pm uninstall --user 0 com.miui.player
+pm uninstall --user 0 com.miui.gallery
+pm uninstall --user 0 com.mi.android.globalFileexplorer
+pm uninstall --user 0 com.xiaomi.calendar
+pm uninstall --user 0 com.xiaomi.midrop
+pm uninstall --user 0 com.xiaomi.joyose
+pm uninstall --user 0 com.xiaomi.mipicks
+pm uninstall --user 0 com.xiaomi.mircs
+pm uninstall --user 0 com.xiaomi.payment
+pm uninstall --user 0 com.xiaomi.miplay_client
+pm uninstall --user 0 android.autoinstalls.config.Xiaomi.olivewood
+pm uninstall --user 0 com.miui.phrase
+pm uninstall --user 0 com.miui.documentsuioverlay
+pm uninstall --user 0 com.miui.freeform
+pm uninstall --user 0 com.miui.calculator
+pm uninstall --user 0 com.miui.miwallpaper
+pm uninstall --user 0 com.miui.cloudservice.sysbase
+pm uninstall --user 0 com.xiaomi.bluetooth.overlay
+
+
+BELOW: PACKAGES ARE NOT INSTALLED FOR 0, but still you can uninstall them. Those packages with tab space are already removed in the above uninstall command.
+	pm uninstall --user 0 com.miui.analytics
+pm uninstall --user 0 com.google.android.marvin.talkback
+pm uninstall --user 0 com.mi.android.globalminusscreen
+	pm uninstall --user 0 com.miui.calculator
+pm uninstall --user 0 com.miui.calendar
+pm uninstall --user 0 com.android.deskclock
+pm uninstall --user 0 com.huaqin.diaglogger
+	pm uninstall --user 0 com.miui.bugreport
+	pm uninstall --user 0 com.miui.freeform
+	pm uninstall --user 0 com.miui.phrase
+pm uninstall --user 0 com.xiaomi.glgm
+	pm uninstall --user 0 com.xiaomi.mipicks
+pm uninstall --user 0 com.google.android.feedback
+	pm uninstall --user 0 com.xiaomi.calendar
+	pm uninstall --user 0 com.miui.cloudbackup
+	pm uninstall --user 0 com.xiaomi.payment
+	pm uninstall --user 0 com.xiaomi.midrop
+	pm uninstall --user 0 com.mi.android.globalFileexplorer
+pm uninstall --user 0 com.mipay.wallet.in
+	pm uninstall --user 0 com.miui.miwallpaper
+	pm uninstall --user 0 com.xiaomi.miplay_client
+	pm uninstall --user 0 com.miui.player
+	pm uninstall --user 0 com.miui.notes
+	pm uninstall --user 0 com.miui.global.packageinstaller
+pm uninstall --user 0 com.android.providers.partnerbookmarks (check)
+	pm uninstall --user 0 com.netflix.partner.activation
+pm uninstall --user 0 com.miui.hybrid (check)
+pm uninstall --user 0 com.miui.miservice --(check)
+	pm uninstall --user 0 com.miui.weather2
+	pm uninstall --user 0 com.miui.yellowpage
+
+
+DONT REMOVE BELOW APPS:
+--pm uninstall --user 0 com.android.providers.telephony (dont remove)
+--pm uninstall --user 0 com.android.updater (Dont remove)
+
+
+
+
+
+
+
